@@ -1,0 +1,41 @@
+{
+  "name": "vuereview",
+  "version": "1.0.0",
+  "main": "10app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open --port 3000 --hot",
+    "dev2": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-component": "^0.10.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "less": "^4.1.2",
+    "less-loader": "^11.0.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "^5.72.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "css-loader": "^6.7.1",
+    "jquery": "^3.6.0",
+    "mint-ui": "^2.2.13",
+    "sass-loader": "^13.0.0",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^3.3.1",
+    "vue": "^2.5.2",
+    "vue-router": "^3.5.4",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "description": ""
+}
